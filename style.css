@@ -1,0 +1,43 @@
+.main, .picture, .press{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.main{
+    margin: 70px;
+    color: #D8B6A4;
+    margin-bottom: 30px;
+}
+body{
+    background: #630606;
+    margin: 0;
+}
+h1,h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#left,#right{
+padding: 20px;
+background: #D8B6A4;
+color: #630606;
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+border: none;
+margin-bottom: 50px;
+}
+@media all and ( max-width:800px ){
+    img{
+        align-self: center;
+        width: 100%;
+        
+    }
+}
+
+@media all and ( max-width:500px ){
+    h1,h2{
+        font-size: 15px;
+    }
+}
